@@ -20,6 +20,6 @@ public class CustomAccessDeniedHandler implements org.springframework.security.w
 
         // Redirect to a custom error page
         response.sendRedirect("/access-denied");
-    }
-    
+    }
+    
 }

@@ -74,9 +74,6 @@ public String Registration(@ModelAttribute("entity") authuser entity) {
         return "userhome";   // user_home.html in templates
     }
 
-    @GetMapping("/access-denied")
-    public String accessDenied() {
-        return "access-denied";
-    }
+   
 
 }
