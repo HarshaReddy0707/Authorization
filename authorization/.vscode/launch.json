@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthorizationApplication<authorization>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "authorization.authorization.AuthorizationApplication",
+            "projectName": "authorization",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

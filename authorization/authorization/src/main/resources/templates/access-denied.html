@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Access Denied</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f7f7f7;
+            text-align: center;
+            padding: 100px;
+        }
+        .box {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        h2 { color: #d9534f; }
+        a {
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>⚠ Access Denied</h2>
+        <p>You don’t have permission to access this page or your CSRF token is invalid.</p>
+        <a th:href="@{/login}">Go Back to Login</a>
+    </div>
+</body>
+</html>
